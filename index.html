@@ -41,11 +41,40 @@
       };
     </script>
   </head>
-  <body>
+  <body class="font-sora">
     <!-- header section -->
-    <header>
+    <header class="lg:max-w-[1600px] mx-auto ">
         <!-- nav section -->
-        <nav></nav>
+        <nav >
+            <!-- for mobile -->
+             <div></div>
+            <!-- for big devices -->
+             <div class="hidden lg:flex lg:items-center lg:py-8 ">
+                <!-- logo header -->
+            <div class="w-[154px] h-[60px] ml-[139px] mr-[340px]">
+                <img src="c2-assets/logo-header.png" alt="">
+            </div>
+            <!-- logo nevigation title -->
+            <div>
+                <ul class="flex justify-between w-[345px] text-lg ">
+                    <li>Product</li>
+                    <li>Services</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <!-- logo search & cart -->
+            <div class="ml-[111px] mr-[24px] space-x-6 ">
+                <i class="text-2xl fas fa-search"></i>
+                <i class="text-2xl fa-solid fa-cart-shopping"></i>
+            </div>
+            <!-- logo button -->
+            <div class="h-[45px] space-x-3">
+                <button class="btn text-lg text-text w-[117px]  border-accent bg-white rounded-lg ">Login</button>
+                <button class="btn text-white text-lg bg-accent w-[146px] ">Register</button>
+
+            </div>
+             </div>
+        </nav>
         <!-- banner section -->
          <section></section>
     </header>
@@ -64,7 +93,7 @@
 
 
 
-    
+
     <!-- Main Section -->
     <main></main>
     <!-- Footer section -->
