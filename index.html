@@ -39,6 +39,19 @@
               sora: ["sora"],
               poppins: ["poppins"],
             },
+
+            // animation
+            animation:{
+              Firstanimation:"Firstanimation ease-in-out 12s infinite",
+            },
+            keyframes:{
+              Firstanimation:{
+                "0%":{color:"#179800", fontWeight:"400" },
+                "25%":{color:"#D60000", fontWeight:"500" },
+                "50%":{color:"#FFD700", fontWeight:"600"  },
+                "100%":{color:"#800080", fontWeight:"700" },
+              }
+            }
           },
         },
       };
@@ -99,7 +112,7 @@
       <section class="text-center mt-[118px]">
         <div class="mx-auto w-[340px] lg:w-[827px] space-y-4 lg:space-y-8 mb-4">
           <p class="text-3xl">
-            Freshness <span class="text-accent">You Can Count</span> On, Prices
+            Freshness <span class="animate-Firstanimation text-[#179800]">You Can Count</span> On, Prices
             You’ll Love!
           </p>
           <p class="">
@@ -397,7 +410,9 @@
        <!-- review section -->
         <section class="mt-20 bg-white pt-20 lg:ma-w-[1600px] mx-auto">
           <!-- container -->
-          <h1 class="ml-8 lg:ml-20 text-accent text-2xl lg:text-4xl font-bold mb-6 ">Reviews</h1>
+          <div class="lg:w-[1320px] mx-auto  ">
+            <h1 class="ml-8 lg:ml-0 text-accent text-2xl lg:text-4xl font-bold mb-6 ">Reviews</h1>
+          </div>
            <div class="lg:w-[1320px] flex flex-col lg:flex-row gap-4 rounded-2xl mx-auto">
             <!-- reviw 1 -->
              <div class="w-[360px] lg:w-[450px] bg-bg-1 mx-auto p-6 flex flex-col justify-between">
@@ -458,7 +473,7 @@
                     <img src="c2-assets/safi.jpg" />
                   </div>
                 </div>
-                <p>This online shop get rid of my tension. i was worried about adultered fruits and vegetables but this shop saved mr frpm consuming unhealthy food. </p>
+                <p>This online shop got rid of my tension. i was worried about adultered fruits and vegetables but this shop saved mr frpm consuming unhealthy food. </p>
               </div>
               <!-- review icon -->
               <div class="flex items-center gap-5">
